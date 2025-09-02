@@ -49,7 +49,7 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-![Uploading image.png…]()
+<img width="393" height="74" alt="image" src="https://github.com/user-attachments/assets/013d4bb5-664c-4a47-a72a-b66d7360f951" />
 
 
 
@@ -59,8 +59,9 @@ cmp file1 file2
  
 comm file1 file2
  ## OUTPUT
-
  
+![Uploading image.png…]()
+
 diff file1 file2
 ## OUTPUT
 
