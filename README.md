@@ -432,6 +432,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="528" height="570" alt="image" src="https://github.com/user-attachments/assets/3e0f4f6c-c8f3-4bfc-b09e-773e108906a0" />
 
 
 mkdir backupdir
@@ -465,7 +466,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -514,24 +515,35 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="333" height="425" alt="image" src="https://github.com/user-attachments/assets/9c54bc7a-18df-4cc1-909a-58a9bc0939b9" />
 
  
 ls file1
 ## OUTPUT
+<img width="302" height="81" alt="image" src="https://github.com/user-attachments/assets/529f714a-c467-46a0-bb70-9d7bd2f3cfa5" />
 
 echo $?
 ## OUTPUT 
+<img width="315" height="78" alt="image" src="https://github.com/user-attachments/assets/35ac749c-6095-49a7-84d3-6408695545fa" />
+
 ./one
 bash: ./one: Permission denied
- 
+## OUTPUT
+  <img width="333" height="78" alt="image" src="https://github.com/user-attachments/assets/00b29bed-ce39-4a0c-bde2-dcc2ba1c97d6" />
+
+
 echo $?
 ## OUTPUT 
- 
+<img width="364" height="73" alt="image" src="https://github.com/user-attachments/assets/d13ab30a-e575-477b-8fea-fc40f8de8738" />
+
 abcd
+## OUTPUT 
+<img width="372" height="79" alt="image" src="https://github.com/user-attachments/assets/1000b06d-5f96-4f96-a91c-44bdd464a2d7" />
+
  
 echo $?
  ## OUTPUT
-
+<img width="344" height="75" alt="image" src="https://github.com/user-attachments/assets/6ee291a0-16b0-44da-ae60-2705bc010b24" />
 
  
 # mis-using string comparisons
@@ -562,14 +574,16 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+<img width="361" height="253" alt="image" src="https://github.com/user-attachments/assets/fed16091-f7f7-45ed-844f-93b1bde98449" />
 
 
 
 chmod 755 strcomp.sh
- 
+
 ./strcomp.sh 
 ## OUTPUT
+<img width="351" height="403" alt="image" src="https://github.com/user-attachments/assets/b7fef264-102e-4817-a2b1-32394a6c44c2" />
 
 
 # check file ownership
@@ -597,6 +611,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="625" height="281" alt="image" src="https://github.com/user-attachments/assets/aa0081d0-0207-410a-aae5-66fce997fcce" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -643,6 +658,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="589" height="714" alt="image" src="https://github.com/user-attachments/assets/4dde118e-4457-459c-b3c2-071be9fe717f" />
 
 
 
@@ -686,7 +702,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+ ## OUTPUT
+<img width="561" height="626" alt="image" src="https://github.com/user-attachments/assets/b48c065b-2fc6-44bd-a609-61c863f88b70" />
 
 # check if a file
 cat > ifnested.sh 
@@ -735,7 +752,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+<img width="545" height="708" alt="image" src="https://github.com/user-attachments/assets/5e9da924-8a7a-4bc0-bd2e-af25fc9536ee" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
