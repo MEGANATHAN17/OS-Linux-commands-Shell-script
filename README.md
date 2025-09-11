@@ -465,6 +465,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="566" height="182" alt="image" src="https://github.com/user-attachments/assets/be712e14-1a02-4b39-ab8c-3e334c302fbd" />
 
 
 cat << stop > herecheck.txt
@@ -944,6 +945,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="365" height="403" alt="image" src="https://github.com/user-attachments/assets/e5f65799-d505-49ab-9e33-eab4ca896518" />
 
 cat forctype1.sh 
 ```bash
@@ -975,8 +977,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="390" height="684" alt="image" src="https://github.com/user-attachments/assets/b1a896ec-ade5-4b2b-b4fa-f87ac3636941" />
 
- 
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -991,12 +993,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ ## OUTPUT
+ <img width="421" height="431" alt="image" src="https://github.com/user-attachments/assets/00df8f95-550f-40c7-b08c-5061e2798f54" />
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -1017,7 +1020,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="498" height="490" alt="image" src="https://github.com/user-attachments/assets/6d0308bb-00a5-4c79-961c-64b977790fd9" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1063,11 +1067,11 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
 
+ ./funcex.sh 
  
  ./funcex.sh 1 2
+## OUTPUT
 
  
 cat argshift.sh
@@ -1080,8 +1084,11 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+ ## OUTPUT
+<img width="381" height="355" alt="image" src="https://github.com/user-attachments/assets/fa103291-3d64-4bb9-b29f-7c853ab3bfbf" />
+
  
  cat argshift1.sh
 ```bash
@@ -1097,9 +1104,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
- 
+ ## OUTPUT
+ <img width="387" height="371" alt="image" src="https://github.com/user-attachments/assets/e56f2adc-c792-41ba-aa74-66cfbbd4014e" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1110,10 +1119,11 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
  ./argshift.sh 1 2 3
- 
- 
+ ## OUTPUT
+ <img width="593" height="634" alt="image" src="https://github.com/user-attachments/assets/1471bc05-efdd-4d92-93ea-382da3fbcf03" />
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1143,7 +1153,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="447" height="658" alt="image" src="https://github.com/user-attachments/assets/ac487cf7-64bf-43e3-990d-62af77e5c652" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1170,6 +1181,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="593" height="780" alt="image" src="https://github.com/user-attachments/assets/b7bb5af9-8038-4407-bfca-f25a7ba61740" />
 
 
 # RESULT:
