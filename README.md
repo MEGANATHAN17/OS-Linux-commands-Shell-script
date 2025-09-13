@@ -451,18 +451,22 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![WhatsApp Image 2025-09-13 at 19 55 48_140f1c0b](https://github.com/user-attachments/assets/04eea8a0-b67e-457c-a902-05e7381b5924)
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="535" height="586" alt="image" src="https://github.com/user-attachments/assets/19a0e71b-1782-47de-9bc3-a24cab96a9c7" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="667" height="241" alt="image" src="https://github.com/user-attachments/assets/69d231d1-7f5b-4bd8-917d-ed4a9173553d" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="653" height="129" alt="image" src="https://github.com/user-attachments/assets/d037aeb8-8c0c-4ed0-b109-8e0f6edcba5e" />
 
  
 # Shell Script
