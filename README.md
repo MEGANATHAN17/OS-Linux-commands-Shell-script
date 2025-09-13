@@ -1,5 +1,13 @@
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
+
+```
+DEVELOPED BY:
+NAME: MEGANATHAN R
+REG NO: 21222430156
+```
+
+
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
