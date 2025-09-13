@@ -783,6 +783,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="615" height="536" alt="image" src="https://github.com/user-attachments/assets/8a170810-8057-4357-817d-8cd4f01f37d1" />
 
 
 # testing compound comparisons
@@ -799,6 +800,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="561" height="365" alt="image" src="https://github.com/user-attachments/assets/7072d5bf-c266-4e53-b214-97b6c6f4f72a" />
 
 # using the case command
 cat >casecheck.sh 
@@ -818,7 +820,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+<img width="619" height="488" alt="image" src="https://github.com/user-attachments/assets/c0e62979-98e9-4c4c-9762-703f5deb3659" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -833,7 +837,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## OUTPUT
+<img width="486" height="575" alt="image" src="https://github.com/user-attachments/assets/4c71a934-1846-406e-84c3-734c4b15fe73" />
+
  
 cat untiltest.sh 
 ```bash
@@ -846,8 +852,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+ $ ./untiltest.sh
+ ## OUTPUT
+ <img width="546" height="432" alt="image" src="https://github.com/user-attachments/assets/e469df2d-8a00-428b-8b13-a1a838bc24a1" />
+
  
 cat forin1.sh 
 ```bash
@@ -860,8 +868,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
+ $ ./forin1.sh
+ ## OUTPUT
  
- 
+ <img width="685" height="430" alt="image" src="https://github.com/user-attachments/assets/2c66483e-2ff4-498a-a867-a8cc6ef40e34" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -873,6 +884,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
+ $ ./forin2.sh
+ ## OUTPUT
+ <img width="595" height="357" alt="image" src="https://github.com/user-attachments/assets/08091f48-6785-4e27-bfef-87cdff8fc105" />
+
  
 cat forin2.sh 
 ```bash
@@ -886,6 +901,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+## OUTPUT
+<img width="589" height="352" alt="image" src="https://github.com/user-attachments/assets/f39e9178-d6ee-4ee0-9e5e-a99643226589" />
+
  
 cat forin3.sh 
 ```bash
@@ -897,7 +915,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ## OUTPUT
+ <img width="561" height="429" alt="image" src="https://github.com/user-attachments/assets/3chmod713b724-7661-4a00-a876-0e2c6b5318c8" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -910,6 +930,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="685" height="430" alt="image" src="https://github.com/user-attachments/assets/1241e664-9b78-4cc4-9c2f-f0b9afb100d9" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1046,11 +1068,10 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
-
-
 
 $ ./exread1.sh 
+ ## OUTPUT
+
  
 cat funcex.sh
 ```bash
