@@ -478,6 +478,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="506" height="137" alt="image" src="https://github.com/user-attachments/assets/0295a2c0-816b-4641-b0a8-229dccd6ffa9" />
 
 
 cat < scriptest.sh 
@@ -916,7 +917,7 @@ done
 ```
 $ ./forin3.sh 
  ## OUTPUT
- <img width="561" height="429" alt="image" src="https://github.com/user-attachments/assets/3chmod713b724-7661-4a00-a876-0e2c6b5318c8" />
+ <img width="547" height="430" alt="image" src="https://github.com/user-attachments/assets/608da47c-d987-4853-8735-3de45df0f563" />
 
 cat forin1.sh 
 ```bash
@@ -981,6 +982,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="542" height="405" alt="image" src="https://github.com/user-attachments/assets/012a719d-193b-41ca-9453-a89650763c8d" />
 
 cat fornested1.sh 
 ```bash
@@ -1057,6 +1059,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="558" height="311" alt="image" src="https://github.com/user-attachments/assets/f526bf83-86ab-4a8c-b57e-ccb7b5fbd565" />
 
 
  cat exread1.sh
@@ -1071,8 +1074,8 @@ $ chmod 755 exread1.sh
 
 $ ./exread1.sh 
  ## OUTPUT
+<img width="589" height="163" alt="image" src="https://github.com/user-attachments/assets/45a20b25-b53e-4a86-a1fd-91237f70ca10" />
 
- 
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1093,6 +1096,7 @@ fi
  
  ./funcex.sh 1 2
 ## OUTPUT
+<img width="570" height="541" alt="image" src="https://github.com/user-attachments/assets/10559ce2-a928-4808-af92-4506e5ada7d4" />
 
  
 cat argshift.sh
